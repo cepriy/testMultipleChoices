@@ -17,10 +17,10 @@ function setNextQuestion() {
     if (currentQuestion.value == null) {
         finishTest();
     }
-    button1.css("background-color",'white');
-    button2.css("background-color",'white');
-    button3.css("background-color",'white');
-    button4.css("background-color",'white');
+    button1.css("background-color", 'white');
+    button2.css("background-color", 'white');
+    button3.css("background-color", 'white');
+    button4.css("background-color", 'white');
     let serialNumsArr = [1, 2, 3, 4];
     let shuffledArray = serialNumsArr.sort((a, b) => 0.5 - Math.random());
 
@@ -42,9 +42,9 @@ function getQuestionsSet() {
 }
 
 
-
 function startTest() {
     $("#startNewTest").hide();
+    points = 0;
     let allTestQuestions = getQuestionsSet();
     iter = allTestQuestions.entries();
     currentQuestion = iter.next();
@@ -56,60 +56,45 @@ function startTest() {
     }
 
 }
+function highlightButton(button){
+    button.css("background-color", '#09c111');
+    button.fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 
-function showCorrectAnswer(quest){
+}
+function showCorrectAnswer(quest) {
 
-        if (button1.text() === quest.correctVariant)
-        {
-            button1.css("background-color",'#09c111');
-         //   button1.style.color='#14010c';
-            $(button1).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
-        }
-
-        if (button2.text()=== quest.correctVariant)
-        {
-            button2.css("background-color",'#09c111');
-          //  button2.style.color='#14010c';
-            $(button2).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
-        }
-        if (button3.text()=== quest.correctVariant)
-        {
-            button3.css("background-color",'#09c111');
-        //    button3.style.color='#14010c';
-            $(button3).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
-        }
-        if (button4.text()=== quest.correctVariant)
-        {
-            button4.css("background-color",'#09c111');
-           // button4.style.color='#14010c';
-            $(button4).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
-        }
-    }
+    if (button1.text() === quest.correctVariant) {
+       highlightButton(button1)    }
+    if (button2.text() === quest.correctVariant) {
+        highlightButton(button2)  }
+    if (button3.text() === quest.correctVariant) {
+        highlightButton(button3)   }
+    if (button4.text() === quest.correctVariant) {
+        highlightButton(button4)    }
+}
 
 
-
-function processCorrectAnswer(button){
-    button.css("background-color",'#09c111');
+function processCorrectAnswer(button) {
+    button.css("background-color", '#09c111');
     button.fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
     points++;
 }
 
-function processWrongAnswer(button){
-    button.css("background-color","#DA2F1D");
+function processWrongAnswer(button) {
+    button.css("background-color", "#DA2F1D");
     showCorrectAnswer(currentQuestion.value[0]);
     button.fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 }
 
-function handleButtonClick(){
-        if (currentQuestion.value[0].correctVariant === $("#" +this.id).text()) {
-            processCorrectAnswer($("#" +this.id));
-        }
-        else {
-            processWrongAnswer($("#" +this.id));
-        }
-        currentQuestion = iter.next();
+function handleButtonClick() {
+    if (currentQuestion.value[0].correctVariant === $("#" + this.id).text()) {
+        processCorrectAnswer($("#" + this.id));
+    } else {
+        processWrongAnswer($("#" + this.id));
+    }
+    currentQuestion = iter.next();
 
-            setTimeout(setNextQuestion, pause);
+    setTimeout(setNextQuestion, pause);
 }
 
 button1.click(handleButtonClick)

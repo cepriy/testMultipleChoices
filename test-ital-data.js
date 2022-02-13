@@ -78,7 +78,7 @@ let data = "[{\n" +
     "\"variant2\"\t:\t\"tulipano\",\n" +
     "\"variant3\"\t:\t\"tulipa\",\n" +
     "\"variant4\"\t:\t\"tulpano\",\n" +
-    "\"correctVariant\"\t:\t\"tulipa\",\n" +
+    "\"correctVariant\"\t:\t\"tulipano\",\n" +
     "\"explanation\": \"\"\n" +
     "  },\n" +
     "  {\n" +
@@ -1554,7 +1554,7 @@ let data = "[{\n" +
     "   \"original\" : \"насіння\",\n" +
     " \"variant1\" : \"semine\",\n" +
     "\"variant2\"  : \"semen\",\n" +
-    "\"variant3\"  : \"semi\",\n" +
+    "\"variant3\"  : \"seme\",\n" +
     "\"variant4\"  : \"semin\",\n" +
     "\"correctVariant\"  : \"seme\",\n" +
     "\"explanation\": \"\"\n" +
@@ -1675,7 +1675,7 @@ let data = "[{\n" +
     "\"variant2\"  : \"gorrila\",\n" +
     "\"variant3\"  : \"gorrilo\",\n" +
     "\"variant4\"  : \"gorillo\",\n" +
-    "\"correctVariant\"  : \"scalpello\",\n" +
+    "\"correctVariant\"  : \"gorila\",\n" +
     "\"explanation\": \"\"\n" +
     "  },\n" +
     "     {\n" +
@@ -1769,6 +1769,474 @@ let data = "[{\n" +
     "\"variant4\"  : \"cronnoca\",\n" +
     "\"correctVariant\"  : \"cronaca\",\n" +
     "\"explanation\": \"\"\n" +
+    "  },\n"+
+    "  {\n" +
+    "    \"original\": \"Женева\",\n" +
+    "    \"variant1\": \"Ginevra\",\n" +
+    "    \"variant2\": \"Ginebra\",\n" +
+    "    \"variant3\": \"Geneva\",\n" +
+    "    \"variant4\": \"Genebra\",\n" +
+    "    \"correctVariant\": \"Ginevra\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Гаага\",\n" +
+    "    \"variant1\": \"L'Aia o L'Aja\",\n" +
+    "    \"variant2\": \"La Haya\",\n" +
+    "    \"variant3\": \"L'Aja\",\n" +
+    "    \"variant4\": \"A Haia\",\n" +
+    "    \"correctVariant\": \"L'Aia o L'Aja\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Севілья\",\n" +
+    "    \"variant1\": \"Siviglia\",\n" +
+    "    \"variant2\": \"Sevilla\",\n" +
+    "    \"variant3\": \"Sevilia\",\n" +
+    "    \"variant4\": \"Sevilha\",\n" +
+    "    \"correctVariant\": \"Siviglia\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Нью-Йорк\",\n" +
+    "    \"variant1\": \"New York\",\n" +
+    "    \"variant2\": \"Nueva York\",\n" +
+    "    \"variant3\": \"Nova York\",\n" +
+    "    \"variant4\": \"Nova Iorque\",\n" +
+    "    \"correctVariant\": \"New York\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Гавана\",\n" +
+    "    \"variant1\": \"Avana\",\n" +
+    "    \"variant2\": \"La Habana\",\n" +
+    "    \"variant3\": \"Habana\",\n" +
+    "    \"variant4\": \"Havana\",\n" +
+    "    \"correctVariant\": \"Avana\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Кейптаун\",\n" +
+    "    \"variant1\": \"Citta di Capo\",\n" +
+    "    \"variant2\": \"Ciudad de el Cabo\",\n" +
+    "    \"variant3\": \"Capetawn\",\n" +
+    "    \"variant4\": \"Cidade do Cabo\",\n" +
+    "    \"correctVariant\": \"Citta di Capo\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Сена\",\n" +
+    "    \"variant1\": \"la Senna\",\n" +
+    "    \"variant2\": \"el Sena\",\n" +
+    "    \"variant3\": \"la Sena\",\n" +
+    "    \"variant4\": \"o Sena\",\n" +
+    "    \"correctVariant\": \"la Senna\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Пекін\",\n" +
+    "    \"variant1\": \"Pechino\",\n" +
+    "    \"variant2\": \"Pequín\",\n" +
+    "    \"variant3\": \"Pekin\",\n" +
+    "    \"variant4\": \"Pequim\",\n" +
+    "    \"correctVariant\": \"Pechino\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Кьольн\",\n" +
+    "    \"variant1\": \"Colonia\",\n" +
+    "    \"variant2\": \"Kioln\",\n" +
+    "    \"variant3\": \"Köln\",\n" +
+    "    \"variant4\": \"Colônia\",\n" +
+    "    \"correctVariant\": \"Colonia\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Берн\",\n" +
+    "    \"variant1\": \"Berna\",\n" +
+    "    \"variant2\": \"Bern\",\n" +
+    "    \"variant3\": \"Berno\",\n" +
+    "    \"variant4\": \"Berna\",\n" +
+    "    \"correctVariant\": \"Berna\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Баварія\",\n" +
+    "    \"variant1\": \"Baviera\",\n" +
+    "    \"variant2\": \"Baviera o Bavaria\",\n" +
+    "    \"variant3\": \"Bavira\",\n" +
+    "    \"variant4\": \"Bavieira\",\n" +
+    "    \"correctVariant\": \"Baviera\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Салоніки\",\n" +
+    "    \"variant1\": \"Salonico\",\n" +
+    "    \"variant2\": \"Salónica\",\n" +
+    "    \"variant3\": \"Tesalónica\",\n" +
+    "    \"variant4\": \"Salónica\",\n" +
+    "    \"correctVariant\": \"Salonico\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Лондон\",\n" +
+    "    \"variant1\": \"Londra\",\n" +
+    "    \"variant2\": \"Londres\",\n" +
+    "    \"variant3\": \"Lonon\",\n" +
+    "    \"variant4\": \"Lóndres\",\n" +
+    "    \"correctVariant\": \"Londra\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Загреб\",\n" +
+    "    \"variant1\": \"Zagabria\",\n" +
+    "    \"variant2\": \"Zágreb\",\n" +
+    "    \"variant3\": \"Zagreb\",\n" +
+    "    \"variant4\": \"Zágreb\",\n" +
+    "    \"correctVariant\": \"Zagabria\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Варшава\",\n" +
+    "    \"variant1\": \"Varsavia\",\n" +
+    "    \"variant2\": \"Varsovia\",\n" +
+    "    \"variant3\": \"Varshava\",\n" +
+    "    \"variant4\": \"Varsóvia\",\n" +
+    "    \"correctVariant\": \"Varsavia\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Барселона\",\n" +
+    "    \"variant1\": \"Barcellona\",\n" +
+    "    \"variant2\": \"Barcelona\",\n" +
+    "    \"variant3\": \"Barselona\",\n" +
+    "    \"variant4\": \"Barçelona\",\n" +
+    "    \"correctVariant\": \"Barcellona\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Львів\",\n" +
+    "    \"variant1\": \"Leopoli\",\n" +
+    "    \"variant2\": \"Lviv\",\n" +
+    "    \"variant3\": \"Lwow\",\n" +
+    "    \"variant4\": \"Lvov\",\n" +
+    "    \"correctVariant\": \"Leopoli\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Кадіс\",\n" +
+    "    \"variant1\": \"Cadice\",\n" +
+    "    \"variant2\": \"Cádiz\",\n" +
+    "    \"variant3\": \"Guadix\",\n" +
+    "    \"variant4\": \"Cádis\",\n" +
+    "    \"correctVariant\": \"Cadice\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Галісія\",\n" +
+    "    \"variant1\": \"Galizia\",\n" +
+    "    \"variant2\": \"Galicia\",\n" +
+    "    \"variant3\": \"Galitzia\",\n" +
+    "    \"variant4\": \"Galiza\",\n" +
+    "    \"correctVariant\": \"Galizia\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Туніс\",\n" +
+    "    \"variant1\": \"Tunisia\",\n" +
+    "    \"variant2\": \"Túnez\",\n" +
+    "    \"variant3\": \"Tuniz\",\n" +
+    "    \"variant4\": \"Tunísia\",\n" +
+    "    \"correctVariant\": \"Tunisia\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Шотландія\",\n" +
+    "    \"variant1\": \"Scozia\",\n" +
+    "    \"variant2\": \"Escocia\",\n" +
+    "    \"variant3\": \"Scotlandia\",\n" +
+    "    \"variant4\": \"Escócia\",\n" +
+    "    \"correctVariant\": \"Scozia\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Мюнхен\",\n" +
+    "    \"variant1\": \"Monaco di Baviera\",\n" +
+    "    \"variant2\": \"Munuch\",\n" +
+    "    \"variant3\": \"Munchen\",\n" +
+    "    \"variant4\": \"Munique\",\n" +
+    "    \"correctVariant\": \"Monaco di Baviera\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Вісла\",\n" +
+    "    \"variant1\": \"La Vistola\",\n" +
+    "    \"variant2\": \"el Vístula\",\n" +
+    "    \"variant3\": \"il Visla\",\n" +
+    "    \"variant4\": \"O Vístula\",\n" +
+    "    \"correctVariant\": \"La Vistola\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Темза\",\n" +
+    "    \"variant1\": \"Il Tamigi\",\n" +
+    "    \"variant2\": \"el Támesis\",\n" +
+    "    \"variant3\": \"il Thems\",\n" +
+    "    \"variant4\": \"Os Domos\",\n" +
+    "    \"correctVariant\": \"Il Tamigi\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Гібралтар\",\n" +
+    "    \"variant1\": \"Gibilterra\",\n" +
+    "    \"variant2\": \"Gibraltar\",\n" +
+    "    \"variant3\": \"Gibralterra\",\n" +
+    "    \"variant4\": \"Gibraltar\",\n" +
+    "    \"correctVariant\": \"Gibilterra\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Цюрих\",\n" +
+    "    \"variant1\": \"Zurigo\",\n" +
+    "    \"variant2\": \"Zúrich\",\n" +
+    "    \"variant3\": \"Zúrigo\",\n" +
+    "    \"variant4\": \"Zurique\",\n" +
+    "    \"correctVariant\": \"Zurigo\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Маресль\",\n" +
+    "    \"variant1\": \"Marsiglia\",\n" +
+    "    \"variant2\": \"Marsella\",\n" +
+    "    \"variant3\": \"Marseglia\",\n" +
+    "    \"variant4\": \"Marselha\",\n" +
+    "    \"correctVariant\": \"Marsiglia\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Бельгія\",\n" +
+    "    \"variant1\": \"Belgio\",\n" +
+    "    \"variant2\": \"Bélgica\",\n" +
+    "    \"variant3\": \"Belgico\",\n" +
+    "    \"variant4\": \"Bélgia\",\n" +
+    "    \"correctVariant\": \"Belgio\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Кот-д'Івуар\",\n" +
+    "    \"variant1\": \"Costa d'Avorio\",\n" +
+    "    \"variant2\": \"Costa de Marfil\",\n" +
+    "    \"variant3\": \"Costa del Avorio\",\n" +
+    "    \"variant4\": \"Costa do Marfim\",\n" +
+    "    \"correctVariant\": \"Costa d'Avorio\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Чилі\",\n" +
+    "    \"variant1\": \"Cile\",\n" +
+    "    \"variant2\": \"Chile\",\n" +
+    "    \"variant3\": \"Chili\",\n" +
+    "    \"variant4\": \"Chille\",\n" +
+    "    \"correctVariant\": \"Cile\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Краків\",\n" +
+    "    \"variant1\": \"Cracovia\",\n" +
+    "    \"variant2\": \"Krakow\",\n" +
+    "    \"variant3\": \"Kraków\",\n" +
+    "    \"variant4\": \"Cracóvia\",\n" +
+    "    \"correctVariant\": \"Cracovia\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Босфор\",\n" +
+    "    \"variant1\": \"Bosforo\",\n" +
+    "    \"variant2\": \"Bósporo\",\n" +
+    "    \"variant3\": \"Bosporo\",\n" +
+    "    \"variant4\": \"Bósforo\",\n" +
+    "    \"correctVariant\": \"Bosforo\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Дарданели\",\n" +
+    "    \"variant1\": \"Dardanelli\",\n" +
+    "    \"variant2\": \"Dardanelos\",\n" +
+    "    \"variant3\": \"Dardanello\",\n" +
+    "    \"variant4\": \"Dardaneli\",\n" +
+    "    \"correctVariant\": \"Dardanelli\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Стамбул\",\n" +
+    "    \"variant1\": \"Istambul\",\n" +
+    "    \"variant2\": \"Estambul\",\n" +
+    "    \"variant3\": \"Stambullo\",\n" +
+    "    \"variant4\": \"Istanbul\",\n" +
+    "    \"correctVariant\": \"Istambul\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Мілан\",\n" +
+    "    \"variant1\": \"Milano\",\n" +
+    "    \"variant2\": \"Milán\",\n" +
+    "    \"variant3\": \"Milan\",\n" +
+    "    \"variant4\": \"Milão\",\n" +
+    "    \"correctVariant\": \"Milano\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Ватикан\",\n" +
+    "    \"variant1\": \"Vaticano\",\n" +
+    "    \"variant2\": \"Vatikano\",\n" +
+    "    \"variant3\": \"Vatican\",\n" +
+    "    \"variant4\": \"Vaticano\",\n" +
+    "    \"correctVariant\": \"Vaticano\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Сердань (територія в Каталонії)\",\n" +
+    "    \"variant1\": \"Cerdagna\",\n" +
+    "    \"variant2\": \"Cerdaña\",\n" +
+    "    \"variant3\": \"Cerdegna\",\n" +
+    "    \"variant4\": \"Cerdanha\",\n" +
+    "    \"correctVariant\": \"Cerdagna\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Валенсія\",\n" +
+    "    \"variant1\": \"Valencia o Valenza\",\n" +
+    "    \"variant2\": \"Ciudad de Guatemala\",\n" +
+    "    \"variant3\": \"Guatemala City\",\n" +
+    "    \"variant4\": \"Valência\",\n" +
+    "    \"correctVariant\": \"Valencia o Valenza\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Сардинія\",\n" +
+    "    \"variant1\": \"Sardegna\",\n" +
+    "    \"variant2\": \"Cerdeña\",\n" +
+    "    \"variant3\": \"Serdeña\",\n" +
+    "    \"variant4\": \"Sardenha\",\n" +
+    "    \"correctVariant\": \"Sardegna\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Санкт-Петербург\",\n" +
+    "    \"variant1\": \"San Pietroburgo\",\n" +
+    "    \"variant2\": \"San Petersburgo\",\n" +
+    "    \"variant3\": \"San-Pietroburgo\",\n" +
+    "    \"variant4\": \"São Pietroburgo\",\n" +
+    "    \"correctVariant\": \"San Pietroburgo\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Гватемала\",\n" +
+    "    \"variant1\": \"Città del Guatemala o Città di Guatemala\",\n" +
+    "    \"variant2\": \"Guatemala Città\",\n" +
+    "    \"variant3\": \"Guatemala City\",\n" +
+    "    \"variant4\": \"Cidade da Guatemala\",\n" +
+    "    \"correctVariant\": \"Città del Guatemala o Città di Guatemala\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Норвегiя\",\n" +
+    "    \"variant1\": \"Norvegia\",\n" +
+    "    \"variant2\": \"Noruega\",\n" +
+    "    \"variant3\": \"Norvergio\",\n" +
+    "    \"variant4\": \"Noruegia\",\n" +
+    "    \"correctVariant\": \"Norvegia\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Дублiн\",\n" +
+    "    \"variant1\": \"Dublino\",\n" +
+    "    \"variant2\": \"Dublín\",\n" +
+    "    \"variant3\": \"Dublin\",\n" +
+    "    \"variant4\": \"Dublin\",\n" +
+    "    \"correctVariant\": \"Dublino\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Азорськi острови\",\n" +
+    "    \"variant1\": \"Azzore\",\n" +
+    "    \"variant2\": \"Asores\",\n" +
+    "    \"variant3\": \"Azzori\",\n" +
+    "    \"variant4\": \"Açores\",\n" +
+    "    \"correctVariant\": \"Azzore\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Брюссель\",\n" +
+    "    \"variant1\": \"Bruxelles o Brussele\",\n" +
+    "    \"variant2\": \"Bruselas\",\n" +
+    "    \"variant3\": \"Brusello\",\n" +
+    "    \"variant4\": \"Bruxelas\",\n" +
+    "    \"correctVariant\": \"Bruxelles o Brussele\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Москва\",\n" +
+    "    \"variant1\": \"Mosca\",\n" +
+    "    \"variant2\": \"Moscú\",\n" +
+    "    \"variant3\": \"Moskva\",\n" +
+    "    \"variant4\": \"Moscovo\",\n" +
+    "    \"correctVariant\": \"Mosca\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Мехіко\",\n" +
+    "    \"variant1\": \"Città del Messico\",\n" +
+    "    \"variant2\": \"Ciudad de México\",\n" +
+    "    \"variant3\": \"Meksiko\",\n" +
+    "    \"variant4\": \"Cidade do México\",\n" +
+    "    \"correctVariant\": \"Citta del Messico\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Бразиліа\",\n" +
+    "    \"variant1\": \"Brasilia\",\n" +
+    "    \"variant2\": \"Brasilia\",\n" +
+    "    \"variant3\": \"Brasilya\",\n" +
+    "    \"variant4\": \"Brasília\",\n" +
+    "    \"correctVariant\": \"Brasilia\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"бразильський\",\n" +
+    "    \"variant1\": \"brasiliano\",\n" +
+    "    \"variant2\": \"brasileño\",\n" +
+    "    \"variant3\": \"brasiliagno\",\n" +
+    "    \"variant4\": \"brasileiro\",\n" +
+    "    \"correctVariant\": \"brasiliano\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"Португалія\",\n" +
+    "    \"variant1\": \"Portogallo\",\n" +
+    "    \"variant2\": \"Portugalia\",\n" +
+    "    \"variant3\": \"Luziatania\",\n" +
+    "    \"variant4\": \"Portugal\",\n" +
+    "    \"correctVariant\": \"Portogallo\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"польський\",\n" +
+    "    \"variant1\": \"polacco\",\n" +
+    "    \"variant2\": \"polaco\",\n" +
+    "    \"variant3\": \"polognese\",\n" +
+    "    \"variant4\": \"polonês\",\n" +
+    "    \"correctVariant\": \"polacco\",\n" +
+    "    \"explanation\": \"\"\n" +
+    "  },\n" +
+    "  {\n" +
+    "    \"original\": \"німецький\",\n" +
+    "    \"variant1\": \"tedesco\",\n" +
+    "    \"variant2\": \"alemán\",\n" +
+    "    \"variant3\": \"germanico\",\n" +
+    "    \"variant4\": \"alemão\",\n" +
+    "    \"correctVariant\": \"tedesco\",\n" +
+    "    \"explanation\": \"\"\n" +
     "  }\n" +
     "    \n" +
     "  ]\n" +
