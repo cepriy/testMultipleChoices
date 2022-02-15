@@ -43,6 +43,14 @@ function getQuestionsSet() {
 
 
 function startTest() {
+    let go_ld = "mu*I*7";
+    let prv_ide = "m*I1(4)";
+    let hrk_ane = "t*11";
+    let up_date = "t*Up*";
+    let sk_eleton = "m*1";
+    let pyo_genes = "t*Ree*";
+    let boss = "GennOlexSurn";
+    let teach = "SvetlDmDrSur";
     $("#startNewTest").hide();
     points = 0;
     let allTestQuestions = getQuestionsSet();
